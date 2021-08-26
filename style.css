@@ -31,38 +31,36 @@ h2{
 /*PARTE BRANCA DO BOX*/
 main#principal{
     display: flex;
-    height: 235vh;
     width: 100%;
 }
 section.box1{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 75%;
-    height: 235vh;
+    height: 200vh;
     background-color: #ffffff;
 }
 section.box2{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 25%;
-    min-height: 235vh;
+    height: 220vh;
     background-color: #19304f;
 }
 div.box-inside1{
     height: 80%;
     width: 80%;
+    margin: 30px 0 0 11px;
 }
 article.rodape{
-    margin: 60px;
+    margin-top: 100px;
     text-align: center;
 }
 /*PARTE BRANCA DO BOX*/
 /*PARTE AZUL DO BOX*/
 /*CONTATO*/
 div.box-inside2{
-    margin-top:100px;
+    margin-top:130px;
     height: 70%;
     width: 60%;
 }
@@ -126,6 +124,7 @@ h1.nome{
 }
 span.job{
     font-size: 1.46vw;
+    padding-right: 20px;
 }
 /*HEADER DA FOTO E DO NOME*/
 /*ARTICLES DO CURRÍCULO*/
