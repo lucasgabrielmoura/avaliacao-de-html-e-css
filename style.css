@@ -163,6 +163,9 @@ ul a:hover{
     div.box-inside2 h2{
         margin: 0 0 11px 0;
     }
+    span.job{
+    padding: 0;
+    }
 }
 @media (max-height:395px){
     section.box2{
