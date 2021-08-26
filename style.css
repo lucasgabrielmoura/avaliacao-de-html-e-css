@@ -1,0 +1,173 @@
+/*GERAL*/
+body{
+    margin: 0px;
+    font-family: Roboto, Verdana;
+}
+/*678 para o media*/
+p{
+    font-weight: 300;
+    color: #222222;
+    line-height: 25px;
+    margin: 0;
+    font-size: 1.17vw;
+    white-space: pre-line;
+}
+ul{
+    padding-left: 19px;
+    margin: 0;
+    color: #222222;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 1.17vw;
+}
+h2{
+    font-size: 1.46vw;
+    color: #19304f;
+    font-weight: normal;
+    margin-bottom: 11px;
+}
+/*GERAL*/
+/*PARTE PRINCIPAL DO CÓDIGO COM BOXS E SECTIONS*/
+/*PARTE BRANCA DO BOX*/
+main#principal{
+    display: flex;
+    height: 200vh;
+    width: 100%;
+}
+section.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 235vh;
+    background-color: #ffffff;
+}
+section.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    min-height: 235vh;
+    background-color: #19304f;
+}
+div.box-inside1{
+    height: 80%;
+    width: 80%;
+}
+article.rodape{
+    margin: 60px;
+    text-align: center;
+}
+/*PARTE BRANCA DO BOX*/
+/*PARTE AZUL DO BOX*/
+/*CONTATO*/
+div.box-inside2{
+    margin-top:100px;
+    height: 70%;
+    width: 60%;
+}
+div.box-inside2 h2{
+    color: #ffffff;
+    
+    margin: 0 0 11px 3px;
+}
+div.box-inside2 p{
+    color: #ffffff;
+    font-style: normal;
+}
+div.box-inside2 p.email{
+    font-size: 1vw;
+}
+div.icons{
+    margin-top: 22px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+div.icons img:hover{
+    opacity: 0.7;
+}
+article.box-contato{
+    margin-bottom: 100px;
+}
+/*CONTATO*/
+/*CONHECIMENTO*/
+div.box-inside2 article.conhecimentos p{
+    margin-bottom: 9px;
+}
+div.box-inside2 article.conhecimentos p::after{
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 0.125em;
+    background-color: #ffffff;
+}
+/*CONHECIMENTO*/
+/*PARTE AZUL DO BOX*/
+/*PARTE PRINCIPAL DO CÓDIGO*/
+/*HEADER DA FOTO E DO NOME*/
+article.header{
+    display: flex;
+    white-space: pre-line;
+    margin: 0 0 36px 11px;
+    align-items: center;
+}
+img.foto{
+    border-radius: 50%;
+    width: 26.15%;
+    margin-right: 20px;
+}
+h1.nome{
+    line-height: 30px;
+    font-size: 2.56vw;
+    text-align: center;
+    font-weight: normal;
+    color: #19304F;
+}
+span.job{
+    font-size: 1.46vw;
+}
+/*HEADER DA FOTO E DO NOME*/
+/*ARTICLES DO CURRÍCULO*/
+article.boxs{
+    padding-left: 11px;
+}
+/*ARTICLES DO CURRÍCULO*/
+/*LIST*/
+li.sub-list{
+    margin-left: 29px;
+    list-style-type: circle;
+}
+ul a{
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+/*LIST*/
+
+/*RESPONSIVE PARTE*/
+@media (max-width:650px){
+    article.header{
+        display: flex;
+        flex-direction: column;
+        white-space: pre-line;
+        margin: 0 0 36px 11px;
+        align-items: center;
+    }
+    img.foto{
+        margin: 0;
+    }
+    div.icons{
+        flex-direction: column;
+    }
+    div.box-inside2 h2{
+        margin: 0 0 11px 0;
+    }
+}
+@media (max-height:395px){
+    section.box2{
+        height: 1000vh;
+    }
+}
+/*RESPONSIVE PARTE*/
