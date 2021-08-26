@@ -3,7 +3,6 @@ body{
     margin: 0px;
     font-family: Roboto, Verdana;
 }
-/*678 para o media*/
 p{
     font-weight: 300;
     color: #222222;
@@ -25,6 +24,9 @@ h2{
     color: #19304f;
     font-weight: normal;
     margin-bottom: 11px;
+}
+a{
+    display: inline-block;
 }
 /*GERAL*/
 /*PARTE PRINCIPAL DO CÓDIGO COM BOXS E SECTIONS*/
@@ -164,7 +166,7 @@ ul a:hover{
         margin: 0 0 11px 0;
     }
     span.job{
-    padding: 0;
+        padding: 0;
     }
 }
 @media (max-height:395px){
