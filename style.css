@@ -82,7 +82,7 @@ div.icons{
     margin-top: 22px;
     display: flex;
     width: 50%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 div.icons img:hover{
     opacity: 0.7;
