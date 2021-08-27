@@ -8,7 +8,7 @@ p{
     color: #222222;
     line-height: 25px;
     margin: 0;
-    font-size: 1.17vw;
+    font-size: 16px;
     white-space: pre-line;
 }
 ul{
@@ -17,10 +17,10 @@ ul{
     color: #222222;
     line-height: 30px;
     margin-bottom: 20px;
-    font-size: 1.17vw;
+    font-size: 16px;
 }
 h2{
-    font-size: 1.46vw;
+    font-size: 20px;
     color: #19304f;
     font-weight: normal;
     margin-bottom: 11px;
@@ -39,14 +39,14 @@ section.box1{
     display: flex;
     justify-content: center;
     width: 75%;
-    height: 200vh;
+    height: 220vh;
     background-color: #ffffff;
 }
 section.box2{
     display: flex;
     justify-content: center;
     width: 25%;
-    height: 220vh;
+    height: 260vh;
     background-color: #19304f;
 }
 div.box-inside1{
@@ -76,7 +76,7 @@ div.box-inside2 p{
     font-style: normal;
 }
 div.box-inside2 p.email{
-    font-size: 1vw;
+    font-size: 9px;
 }
 div.icons{
     margin-top: 22px;
@@ -115,17 +115,18 @@ article.header{
 img.foto{
     border-radius: 50%;
     width: 26.15%;
+    min-width: 24%;
     margin-right: 20px;
 }
 h1.nome{
     line-height: 30px;
-    font-size: 2.56vw;
+    font-size: 34px;
     text-align: center;
     font-weight: normal;
     color: #19304F;
 }
 span.job{
-    font-size: 1.46vw;
+    font-size: 19px;
     padding-right: 20px;
 }
 /*HEADER DA FOTO E DO NOME*/
@@ -168,10 +169,19 @@ ul a:hover{
     span.job{
         padding: 0;
     }
-}
-@media (max-height:395px){
+    main#principal{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    }
+    section.box1{
+        width: 100%;
+        height: 400vh;
+    }
     section.box2{
-        height: 1000vh;
+        width: 100%;
+        height: 150vh;
     }
 }
+
 /*RESPONSIVE PARTE*/
