@@ -157,6 +157,9 @@ ul a:hover{
 }
 
 @media (max-width:768px){
+    article.boxs{
+        padding-left: 0;
+    }
     article.header{
         display: flex;
         flex-direction: column;
