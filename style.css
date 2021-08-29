@@ -149,6 +149,13 @@ ul a:hover{
 /*LIST*/
 
 /*RESPONSIVE PARTE*/
+/*PARA O EMAIL*/
+@media (max-width:1138px){
+    div.box-inside2 p.email{
+        font-size: 9px;
+    }
+}
+
 @media (max-width:768px){
     article.header{
         display: flex;
@@ -181,6 +188,9 @@ ul a:hover{
     section.box2{
         width: 100%;
         height: 150vh;
+    }
+    div.box-inside2 p.email{
+        font-size: 14px;
     }
 }
 
