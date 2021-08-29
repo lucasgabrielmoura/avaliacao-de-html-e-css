@@ -76,13 +76,13 @@ div.box-inside2 p{
     font-style: normal;
 }
 div.box-inside2 p.email{
-    font-size: 9px;
+    font-size: 13px;
 }
 div.icons{
     margin-top: 22px;
     display: flex;
     width: 50%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 div.icons img:hover{
     opacity: 0.7;
@@ -149,7 +149,7 @@ ul a:hover{
 /*LIST*/
 
 /*RESPONSIVE PARTE*/
-@media (max-width:650px){
+@media (max-width:768px){
     article.header{
         display: flex;
         flex-direction: column;
