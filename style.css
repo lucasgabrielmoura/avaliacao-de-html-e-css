@@ -90,6 +90,10 @@ div.icons img:hover{
 article.box-contato{
     margin-bottom: 100px;
 }
+p.number{
+    text-decoration: none;
+    color: #ffffff;
+}
 /*CONTATO*/
 /*CONHECIMENTO*/
 div.box-inside2 article.conhecimentos p{
